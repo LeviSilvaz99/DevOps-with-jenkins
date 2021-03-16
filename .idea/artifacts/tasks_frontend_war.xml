@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tasks-frontend:war">
+    <output-path>$PROJECT_DIR$/tasks-frontend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tasks-frontend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tasks.war">
+      <element id="artifact" artifact-name="tasks-frontend:war exploded" />
+    </root>
+  </artifact>
+</component>

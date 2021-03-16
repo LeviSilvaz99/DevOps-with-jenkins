@@ -1,0 +1,115 @@
+08-Mar-2021 15:38:23.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+08-Mar-2021 15:38:23.641 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+08-Mar-2021 15:38:23.642 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+08-Mar-2021 15:38:23.642 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Mar-2021 15:38:23.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Mar-2021 15:38:23.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2021 15:38:23.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_281\jre
+08-Mar-2021 15:38:23.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+08-Mar-2021 15:38:23.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Mar-2021 15:38:23.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:38:23.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:38:23.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\hpadmin\Desktop\devops\apache-tomcat\conf\logging.properties
+08-Mar-2021 15:38:23.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2021 15:38:23.645 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2021 15:38:23.645 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2021 15:38:23.645 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2021 15:38:23.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:38:23.651 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:38:23.651 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\hpadmin\Desktop\devops\apache-tomcat\temp
+08-Mar-2021 15:38:23.657 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\RA2HP\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\hpadmin\AppData\Local\Microsoft\WindowsApps;;C:\Users\hpadmin\AppData\Local\Programs\Microsoft VS Code\bin;.]
+08-Mar-2021 15:38:24.173 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+08-Mar-2021 15:38:25.006 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:38:25.035 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Mar-2021 15:38:25.039 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:38:25.041 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2309 ms
+08-Mar-2021 15:38:25.106 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2021 15:38:25.108 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+08-Mar-2021 15:38:25.134 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs]
+08-Mar-2021 15:38:25.638 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs] has finished in [498] ms
+08-Mar-2021 15:38:25.638 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\examples]
+08-Mar-2021 15:38:40.908 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005]. Tomcat may not be running.
+08-Mar-2021 15:39:13.024 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+08-Mar-2021 15:39:13.031 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+08-Mar-2021 15:39:13.031 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+08-Mar-2021 15:39:13.034 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Mar-2021 15:39:13.034 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Mar-2021 15:39:13.034 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2021 15:39:13.035 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_281\jre
+08-Mar-2021 15:39:13.035 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+08-Mar-2021 15:39:13.035 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Mar-2021 15:39:13.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:39:13.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:39:13.037 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\hpadmin\Desktop\devops\apache-tomcat\conf\logging.properties
+08-Mar-2021 15:39:13.037 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2021 15:39:13.037 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2021 15:39:13.037 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2021 15:39:13.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2021 15:39:13.039 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:39:13.045 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:39:13.045 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\hpadmin\Desktop\devops\apache-tomcat\temp
+08-Mar-2021 15:39:13.056 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\RA2HP\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\hpadmin\AppData\Local\Microsoft\WindowsApps;;C:\Users\hpadmin\AppData\Local\Programs\Microsoft VS Code\bin;.]
+08-Mar-2021 15:39:13.328 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+08-Mar-2021 15:39:14.052 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:39:14.079 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Mar-2021 15:39:14.089 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:39:14.092 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1694 ms
+08-Mar-2021 15:39:14.157 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2021 15:39:14.158 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+08-Mar-2021 15:39:14.182 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs]
+08-Mar-2021 15:39:14.695 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs] has finished in [512] ms
+08-Mar-2021 15:39:14.696 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\examples]
+08-Mar-2021 15:39:15.379 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\examples] has finished in [682] ms
+08-Mar-2021 15:39:15.379 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\host-manager]
+08-Mar-2021 15:39:15.456 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\host-manager] has finished in [77] ms
+08-Mar-2021 15:39:15.457 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager]
+08-Mar-2021 15:39:15.514 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager] has finished in [58] ms
+08-Mar-2021 15:39:15.514 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\ROOT]
+08-Mar-2021 15:39:15.565 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\ROOT] has finished in [51] ms
+08-Mar-2021 15:39:15.570 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+08-Mar-2021 15:39:15.587 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Mar-2021 15:39:15.591 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 1498 ms
+08-Mar-2021 15:47:16.588 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Users/hpadmin/Desktop/devops/apache-tomcat/conf/tomcat-users.xml]
+08-Mar-2021 15:56:07.466 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+08-Mar-2021 15:56:07.570 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager]
+08-Mar-2021 15:56:07.650 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager] has finished in [80] ms
+08-Mar-2021 15:56:22.251 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+08-Mar-2021 15:56:22.255 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+08-Mar-2021 15:56:22.255 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+08-Mar-2021 15:56:22.255 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Mar-2021 15:56:22.255 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Mar-2021 15:56:22.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2021 15:56:22.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_281\jre
+08-Mar-2021 15:56:22.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+08-Mar-2021 15:56:22.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Mar-2021 15:56:22.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:56:22.260 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:56:22.261 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\hpadmin\Desktop\devops\apache-tomcat\conf\logging.properties
+08-Mar-2021 15:56:22.262 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2021 15:56:22.263 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2021 15:56:22.263 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2021 15:56:22.263 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2021 15:56:22.265 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:56:22.268 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\hpadmin\Desktop\devops\apache-tomcat
+08-Mar-2021 15:56:22.274 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\hpadmin\Desktop\devops\apache-tomcat\temp
+08-Mar-2021 15:56:22.281 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\RA2HP\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\hpadmin\AppData\Local\Microsoft\WindowsApps;;C:\Users\hpadmin\AppData\Local\Programs\Microsoft VS Code\bin;.]
+08-Mar-2021 15:56:22.644 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+08-Mar-2021 15:56:23.639 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:56:23.670 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Mar-2021 15:56:23.691 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Mar-2021 15:56:23.698 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2502 ms
+08-Mar-2021 15:56:23.776 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2021 15:56:23.778 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+08-Mar-2021 15:56:23.804 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs]
+08-Mar-2021 15:56:24.333 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\docs] has finished in [528] ms
+08-Mar-2021 15:56:24.334 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\examples]
+08-Mar-2021 15:56:25.657 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\examples] has finished in [1,318] ms
+08-Mar-2021 15:56:25.657 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\host-manager]
+08-Mar-2021 15:56:25.755 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\host-manager] has finished in [98] ms
+08-Mar-2021 15:56:25.756 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager]
+08-Mar-2021 15:56:25.864 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\manager] has finished in [108] ms
+08-Mar-2021 15:56:25.869 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\ROOT]
+08-Mar-2021 15:56:25.991 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\hpadmin\Desktop\devops\apache-tomcat\webapps\ROOT] has finished in [122] ms
+08-Mar-2021 15:56:26.011 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+08-Mar-2021 15:56:26.053 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Mar-2021 15:56:26.071 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2371 ms
